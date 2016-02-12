@@ -132,6 +132,7 @@ protected:
 	orb_advert_t	_cmd_pub;
 
 	control::BlockParamFloat _param_yaw_timeout;
+	control::BlockParamFloat _param_yaw_err;
 };
 
 #endif
